@@ -40,4 +40,14 @@
       margin-bottom: 1rem;
     }
   }
+  
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  @media screen {
+    ul, li {
+      list-style-type: none;
+    }
+  }
 }
