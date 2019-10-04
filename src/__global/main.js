@@ -36,6 +36,7 @@ require('imports-loader?window.jQuery=jquery!./js/jquery.runner.js')
 window.$ = $
 window.jQuery = $
 
+window.proposicaoModal()
 window.autorModal()
 window.refreshMask()
 window.refreshDatePicker()
